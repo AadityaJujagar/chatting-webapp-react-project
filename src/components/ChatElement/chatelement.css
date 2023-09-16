@@ -1,0 +1,50 @@
+.conChatElement {
+  display: flex;
+  max-width: 316px;
+  padding: 12px 16px;
+  align-items: flex-start;
+  background: #f5f5f5;
+  gap: 11px;
+}
+
+.conChatAvatar {
+  width: 49.176px;
+  height: 49.176px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.conUserHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.conUserName {
+  color: #262626;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.286px;
+}
+
+.lastMsgTime {
+  color: #262626;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 0.176px;
+}
+
+.conUserMsg {
+  align-self: stretch;
+  color: #262626;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.264px;
+}

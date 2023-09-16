@@ -1,0 +1,58 @@
+.contactsBar {
+  display: flex;
+  flex-direction: column;
+  max-width: 316px;
+  height: 600px;
+  flex-wrap: wrap;
+  gap: 6px;
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.conChatHeader {
+  display: flex;
+  height: 80px;
+  padding: 0px 16px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.conChatHeader p {
+  color: #1e1e1e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.352px;
+}
+
+.conChatHeader img {
+  width: 12.59px;
+  height: 14.167px;
+  flex-shrink: 0;
+}
+
+.chatStatus {
+  display: flex;
+  padding: 6px 16px;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.chatStatus p {
+  display: flex;
+  padding: 6px 50px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 6px;
+  background: #eee;
+}
+
+.chatConList {
+  overflow-y: auto;
+  flex: 1;
+}
