@@ -8,7 +8,7 @@ function ChatElement({ data }) {
       <div className="conUserSec">
         <div className="conUserHeader">
           <p className="conUserName">{data.name}</p>
-          <span className="lastMsgTime"> {data.msgTime}pm</span>
+          <span className="lastMsgTime"> {data.msgTime} pm</span>
         </div>
         <p className="conUserMsg">{data.msgText}</p>
       </div>

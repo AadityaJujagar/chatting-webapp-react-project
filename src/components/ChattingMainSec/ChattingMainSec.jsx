@@ -70,7 +70,7 @@ function ChattingMainSec() {
           <img src={micIcon} alt="" />
           <img src={attachIcon} alt="" />
           <div className="iconsDivider"></div>
-          <img src={sendMsg} alt="" />
+          <button>Send{">"}</button>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 .homepage {
   display: flex;
-  width: 1366px;
+  max-width: 1366px;
   height: 712px;
   border-radius: 0 0 30px 30px;
   background: #eee;
