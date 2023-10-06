@@ -5,8 +5,7 @@ import vidCallIcon from "../../assets/vidCallIcon.svg";
 import imogyIcon from "../../assets/imogyIcon.svg";
 import micIcon from "../../assets/micIcon.svg";
 import attachIcon from "../../assets/attachIcon.svg";
-import sendMsg from "../../assets/sendMsg.svg";
-import { userChatData, userMsgs } from "../../Data";
+import { userMsgs } from "../../Data";
 import UserDmMsgs from "../UserDmMsgs/UserDmMsgs";
 
 function ChattingMainSec() {
@@ -14,9 +13,9 @@ function ChattingMainSec() {
     <div className="chattingMainParent">
       <div className="chattingMainHeader">
         <div className="headerLHS">
-          <img src={userChatData[0].img} alt="" />
+          <img src={userMsgs[0].img} alt="" />
           <div className="headerLHSinfo">
-            <p>{userChatData[0].name}</p>
+            <p>{userMsgs[0].name}</p>
             <p>Active</p>
           </div>
         </div>

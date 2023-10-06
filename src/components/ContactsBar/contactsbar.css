@@ -1,13 +1,10 @@
 .contactsBar {
   display: flex;
   flex-direction: column;
-  max-width: 316px;
-  height: 600px;
+  max-width: 512px;
   flex-wrap: wrap;
   gap: 6px;
   height: auto;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
 .conChatHeader {

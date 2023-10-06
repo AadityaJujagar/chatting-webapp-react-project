@@ -1,7 +1,7 @@
 import React from "react";
 import "./contactsbar.css";
 import editPencil from "../../assets/editPencil.svg";
-import { userChatData } from "../../Data";
+import { userMsgs } from "../../Data";
 import ChatElement from "../ChatElement/ChatElement";
 
 function ContactsBar() {
@@ -16,46 +16,46 @@ function ContactsBar() {
       </div>
       {/* chatElement component mapped */}
       <div className="chatConList">
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
-        {userChatData.map((data) => (
+        {userMsgs.map((data) => (
           <ChatElement data={data} key={data.id} />
         ))}
       </div>
